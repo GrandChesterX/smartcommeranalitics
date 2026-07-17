@@ -1,2 +1,2 @@
 # smartcommeranalitics
-Proyecto para el desarrollo de Dashborar de ventas inteligente
+Proyecto para el desarrollo de Dashboard de ventas inteligente
