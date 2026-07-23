@@ -12,7 +12,7 @@ class IngestorDatos:
         #se rompa abruptamente al suceder un error,definiendo
         #acciones alternativas.
         try:
-            df = pd.read_csv(archivo, sep=None, engine='python', encoding='utf-8-sig')
+            df = pd.read_csv(archivo, sep=None, engine='python', encoding='utf-8-sig', decimal=',')
             #usamos sep=None y el motor de python para que pandas detecte automaticamente 
             #si el archivo usa comas (,) puntos y comas(;) o tabuladores ()
             
